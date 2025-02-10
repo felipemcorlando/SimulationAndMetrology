@@ -34,9 +34,6 @@ pip install -r requirements.txt
 
 ## Usage
 To run the simulation:
-```bash
-python3 simProject.py
-```
 The script will generate performance metrics and plots of the simulation results.
 
 ## Output
@@ -44,14 +41,12 @@ The script will generate performance metrics and plots of the simulation results
   - **Loss rate over time** for each traffic type.
   - **Response time over time** for each traffic type.
 - The simulation results can also be redirected to a file:
-```bash
-python3 simProject.py > simulation_trace.txt
-```
 
 ## File Structure
 ```
 /SimulationAndMetrology
-│── simProject.py         # Main simulation script
+│── simProject.ipynb         # Main simulation script
+│── burstiness_results.csv # Simulation Results
 │── requirements.txt      # Dependencies
 │── README.md             # Project documentation
 │── venv/                 # Virtual environment (excluded from GitHub)
